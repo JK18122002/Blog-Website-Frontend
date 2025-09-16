@@ -202,6 +202,19 @@ const Profile = () => {
                                     </div>
                                     <div>
                                         <Label htmlFor="name" className="text-right">
+                                            Occupation
+                                        </Label>
+                                        <Textarea
+                                            id="occupation"
+                                            value={input.occupation}
+                                            onChange={changeEventHandler}
+                                            name="occupation"
+                                            placeholder="Enter a Occupation"
+                                            className="col-span-3 text-gray-500"
+                                        />
+                                    </div>
+                                    <div>
+                                        <Label htmlFor="name" className="text-right">
                                             Description
                                         </Label>
                                         <Textarea
