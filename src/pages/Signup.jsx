@@ -127,7 +127,7 @@ const Signup = () => {
                 />
                 <button
                   type="button"
-                  className="absolute right-3 top-9 text-gray-500"
+                  className="absolute right-3 top-6 text-gray-500"
                   onClick={() => setShowPassword(!showPassword)}
                   disabled={loading}
                 >
