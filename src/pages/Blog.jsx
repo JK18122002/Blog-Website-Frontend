@@ -7,57 +7,178 @@ import { setBlog } from '@/redux/blogSlice'
 // import BlogCardList from '@/components/BlogCardList'
 
 export const blogJson = [
-    {
-        "id": 1,
-        "title": "The Ultimate Guide to Digital Marketing in 2025",
-        "author": "Rohit Singh",
-        "date": "2025-03-27",
-        "content": "Digital marketing is constantly evolving. In 2025, businesses must focus on AI-driven strategies, voice search optimization, and hyper-personalization. This guide covers the latest trends and strategies for success.",
-        "tags": ["digital marketing", "SEO", "social media", "PPC"],
-        "category": "Marketing",
-        "image": LMS
-    },
-    {
-        "id": 2,
-        "title": "Building a Full-Stack LMS with MERN Stack",
-        "author": "Rohit Singh",
-        "date": "2025-03-27",
-        "content": "A step-by-step guide to building a Learning Management System (LMS) using React, Tailwind CSS, Node.js, Express.js, and MongoDB. Learn how to create courses, manage users, and process payments.",
-        "tags": ["MERN stack", "LMS", "React", "Node.js"],
-        "category": "Web Development",
-        "image": LMS
-    },
-    {
-        "id": 3,
-        "title": "Top 10 WordPress Plugins for 2025",
-        "author": "Rohit Singh",
-        "date": "2025-03-27",
-        "content": "WordPress remains the most popular CMS. This article covers the top 10 must-have plugins for security, SEO, performance, and customization in 2025.",
-        "tags": ["WordPress", "plugins", "SEO", "website optimization"],
-        "category": "WordPress",
-        "image": LMS
-    },
-    {
-        "id": 4,
-        "title": "How to Use APIs in Web Development",
-        "author": "Rohit Singh",
-        "date": "2025-03-27",
-        "content": "APIs play a crucial role in modern web development. Learn how to integrate third-party APIs, create RESTful APIs with Node.js, and use authentication methods like OAuth.",
-        "tags": ["APIs", "web development", "Node.js", "RESTful API"],
-        "category": "Web Development",
-        "image": LMS
-    },
-    {
-        "id": 5,
-        "title": "Search Engine Optimization: The Complete Beginner’s Guide",
-        "author": "Rohit Singh",
-        "date": "2025-03-27",
-        "content": "SEO is vital for ranking higher on Google. This guide explains keyword research, on-page and off-page SEO, technical SEO, and the latest trends.",
-        "tags": ["SEO", "Google ranking", "keyword research", "backlinks"],
-        "category": "Marketing",
-        "image": LMS
-    }
-]
+  {
+    "id": 1,
+    "title": "The Ultimate Guide to Digital Marketing in 2025",
+    "author": "Rohit Singh",
+    "date": "2025-03-27",
+    "content": "Digital marketing is constantly evolving. In 2025, businesses must focus on AI-driven strategies, voice search optimization, and hyper-personalization.",
+    "tags": ["digital marketing", "SEO", "social media", "PPC"],
+    "category": "Digital Marketing",
+    "image": LMS
+  },
+  {
+    "id": 2,
+    "title": "Building a Full-Stack LMS with MERN Stack",
+    "author": "Rohit Singh",
+    "date": "2025-03-27",
+    "content": "Step-by-step guide to building a Learning Management System (LMS) using React, Tailwind CSS, Node.js, Express.js, and MongoDB.",
+    "tags": ["MERN stack", "LMS", "React", "Node.js"],
+    "category": "Web Development",
+    "image": LMS
+  },
+  {
+    "id": 3,
+    "title": "Top 10 WordPress Plugins for 2025",
+    "author": "Rohit Singh",
+    "date": "2025-03-27",
+    "content": "This article covers the top 10 must-have plugins for security, SEO, performance, and customization in WordPress.",
+    "tags": ["WordPress", "plugins", "SEO", "website optimization"],
+    "category": "Blogging",
+    "image": LMS
+  },
+  {
+    "id": 4,
+    "title": "Photography Tips for Beginners",
+    "author": "Rohit Singh",
+    "date": "2025-03-28",
+    "content": "Learn the basics of photography, including composition, lighting, and camera settings.",
+    "tags": ["Photography", "Camera", "Tips"],
+    "category": "Photography",
+    "image": LMS
+  },
+  {
+    "id": 5,
+    "title": "Delicious and Healthy Recipes for 2025",
+    "author": "Rohit Singh",
+    "date": "2025-03-29",
+    "content": "Discover easy and healthy cooking recipes for everyday meals and special occasions.",
+    "tags": ["Cooking", "Recipes", "Healthy Food"],
+    "category": "Cooking",
+    "image": LMS
+  },
+  {
+    "id": 6,
+    "title": "Artificial Intelligence in Everyday Life",
+    "author": "Rohit Singh",
+    "date": "2025-04-01",
+    "content": "AI is transforming how we work, live, and communicate. Explore real-world applications in healthcare, finance, education, and home automation.",
+    "tags": ["AI", "Machine Learning", "Automation"],
+    "category": "Artificial Intelligence",
+    "image": LMS
+  },
+  {
+    "id": 7,
+    "title": "Must-Have Tech Gadgets for 2025",
+    "author": "Rohit Singh",
+    "date": "2025-04-02",
+    "content": "From smart home devices to wearable technology, these gadgets make life easier, smarter, and more connected.",
+    "tags": ["Gadgets", "Technology", "Innovation"],
+    "category": "Technology & Gadgets",
+    "image": LMS
+  },
+  {
+    "id": 8,
+    "title": "Top Cybersecurity Practices for 2025",
+    "author": "Rohit Singh",
+    "date": "2025-04-03",
+    "content": "Protect digital assets with multi-factor authentication, secure coding practices, and proactive threat monitoring.",
+    "tags": ["Cybersecurity", "Data Protection", "Hacking Prevention"],
+    "category": "Cybersecurity",
+    "image": LMS
+  },
+  {
+    "id": 9,
+    "title": "Finance & Investing Trends in 2025",
+    "author": "Rohit Singh",
+    "date": "2025-04-04",
+    "content": "Learn the latest strategies for personal finance, investing, and wealth management.",
+    "tags": ["Finance", "Investing", "Wealth"],
+    "category": "Finance & Investing",
+    "image": LMS
+  },
+  {
+    "id": 10,
+    "title": "Starting Your Own Business in 2025",
+    "author": "Rohit Singh",
+    "date": "2025-04-05",
+    "content": "A comprehensive guide for aspiring entrepreneurs on launching startups, finding funding, and scaling successfully.",
+    "tags": ["Startup", "Business", "Entrepreneurship"],
+    "category": "Business & Startups",
+    "image": LMS
+  },
+  {
+    "id": 11,
+    "title": "Healthy Living: Tips for Fitness and Wellness",
+    "author": "Rohit Singh",
+    "date": "2025-04-06",
+    "content": "Maintain a balanced lifestyle with exercise routines, nutrition tips, and mental health strategies to stay fit and active.",
+    "tags": ["Fitness", "Health", "Wellness"],
+    "category": "Health & Fitness",
+    "image": LMS
+  },
+  {
+    "id": 12,
+    "title": "Exploring the World: Top Travel Destinations",
+    "author": "Rohit Singh",
+    "date": "2025-04-07",
+    "content": "Discover hidden gems and popular travel spots along with tips for budget-friendly trips and unique experiences.",
+    "tags": ["Travel", "Adventure", "Tourism"],
+    "category": "Travel & Adventure",
+    "image": LMS
+  },
+  {
+    "id": 13,
+    "title": "Lifestyle Trends to Follow in 2025",
+    "author": "Rohit Singh",
+    "date": "2025-04-08",
+    "content": "Explore the latest lifestyle trends in fashion, home design, and personal growth that are shaping 2025.",
+    "tags": ["Lifestyle", "Trends", "Fashion"],
+    "category": "Lifestyle",
+    "image": LMS
+  },
+  {
+    "id": 14,
+    "title": "Top Gaming and Esports News",
+    "author": "Rohit Singh",
+    "date": "2025-04-09",
+    "content": "Stay updated on the biggest gaming releases, esports tournaments, and emerging trends in the gaming world.",
+    "tags": ["Gaming", "Esports", "Games"],
+    "category": "Gaming & Esports",
+    "image": LMS
+  },
+  {
+    "id": 15,
+    "title": "Science & Space Discoveries of 2025",
+    "author": "Rohit Singh",
+    "date": "2025-04-10",
+    "content": "Learn about the latest breakthroughs in science, space exploration, and technological advancements.",
+    "tags": ["Science", "Space", "Research"],
+    "category": "Science & Space",
+    "image": LMS
+  },
+  {
+    "id": 16,
+    "title": "Educational Tools and E-Learning Trends",
+    "author": "Rohit Singh",
+    "date": "2025-04-11",
+    "content": "Discover the latest in online education, e-learning platforms, and tools for teachers and students in 2025.",
+    "tags": ["Education", "E-Learning", "Technology"],
+    "category": "Education & Learning",
+    "image": LMS
+  },
+  {
+    "id": 17,
+    "title": "Green Technology and Sustainable Innovations",
+    "author": "Rohit Singh",
+    "date": "2025-04-12",
+    "content": "Learn about eco-friendly technologies, renewable energy solutions, and sustainable practices shaping the future.",
+    "tags": ["Green Tech", "Sustainability", "Innovation"],
+    "category": "Green Tech & Sustainability",
+    "image": LMS
+  }
+];
+
 
 
 const Blog = () => {
