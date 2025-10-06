@@ -174,11 +174,23 @@ const UpdateBlog = () => {
                             <SelectContent>
                                 <SelectGroup>
                                     <SelectLabel>Category</SelectLabel>
-                                    <SelectItem value="Web Development">Web Development</SelectItem>
-                                    <SelectItem value="Digital Marketing">Digital Marketing</SelectItem>
-                                    <SelectItem value="Blogging">Blogging</SelectItem>
-                                    <SelectItem value="Photgraphy">Photgraphy</SelectItem>
-                                    <SelectItem value="Cooking">Cooking</SelectItem>
+                                                      <SelectItem value="Web Development">Web Development</SelectItem>
+                                                      <SelectItem value="Digital Marketing">Digital Marketing</SelectItem>
+                                                      <SelectItem value="Blogging">Blogging</SelectItem>
+                                                      <SelectItem value="Photography">Photography</SelectItem>
+                                                      <SelectItem value="Cooking">Cooking</SelectItem>
+                                                      <SelectItem value="Artificial Intelligence">Artificial Intelligence</SelectItem>
+                                                      <SelectItem value="Technology & Gadgets">Technology & Gadgets</SelectItem>
+                                                      <SelectItem value="Cybersecurity">Cybersecurity</SelectItem>
+                                                      <SelectItem value="Finance & Investing">Finance & Investing</SelectItem>
+                                                      <SelectItem value="Business & Startups">Business & Startups</SelectItem>
+                                                      <SelectItem value="Health & Fitness">Health & Fitness</SelectItem>
+                                                      <SelectItem value="Travel & Adventure">Travel & Adventure</SelectItem>
+                                                      <SelectItem value="Lifestyle">Lifestyle</SelectItem>
+                                                      <SelectItem value="Gaming & Esports">Gaming & Esports</SelectItem>
+                                                      <SelectItem value="Science & Space">Science & Space</SelectItem>
+                                                      <SelectItem value="Education & Learning">Education & Learning</SelectItem>
+                                                      <SelectItem value="Green Tech & Sustainability">Green Tech & Sustainability</SelectItem>
                                 </SelectGroup>
                             </SelectContent>
                         </Select>
